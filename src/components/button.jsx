@@ -1,12 +1,7 @@
-
-export const Button = ({ className = "", children }) => {
+export const Button = ({ className, children }) => {
   return (
-    <button
-      className={`... ${className}`}
-    >
+    <button className={`border-0 rounded-md  text-xs  ${className}`}>
       {children}
     </button>
   );
 };
-
-// className={`... ${className}`}
